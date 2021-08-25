@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"os"
 
-	ovn "github.com/greenpau/ovn_exporter/pkg/ovn_exporter"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/prometheus/common/log"
+	ovn "github.com/syseleven/ovn_exporter/pkg/ovn_exporter"
 )
 
 func main() {
